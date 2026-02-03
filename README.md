@@ -2,7 +2,7 @@
 
 ![logo](res/logo_gray.png)
 
-> Work for our 'Amuse'.
+> Let's work for your 'Amuse'.
 
 'Amusework'는 2D/3D 게임 개발을 위한 엔진 개발 프로젝트입니다.
 
