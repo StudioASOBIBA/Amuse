@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <cstddef>
 
-namespace amuse::core
+namespace amuse::misc
 {
     using Int8  = std::int8_t;
     using Int16 = std::int16_t;

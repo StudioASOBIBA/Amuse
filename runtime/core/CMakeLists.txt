@@ -13,16 +13,17 @@ set(amuse_core_sources
     src/io/directory.cpp
 )
 
-add_library(amuse_core STATIC
-    ${amuse_core_headers}
-    ${amuse_core_sources}
+add_library(amuse_core
+    STATIC
+        ${amuse_core_headers}
+        ${amuse_core_sources}
 )
 
-target_include_directories(amuse_core PUBLIC
-    ${CMAKE_CURRENT_SOURCE_DIR}
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/io
-    ${CMAKE_CURRENT_SOURCE_DIR}/include/misc
+target_include_directories(amuse_core
+    PUBLIC
+        include
+        include/io
+        include/misc
 )
 
 target_link_libraries(amuse_core
