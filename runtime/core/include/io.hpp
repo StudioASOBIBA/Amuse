@@ -3,4 +3,4 @@
 
 #include "io/directory.hpp"
 
-#endif // !GUARD_IO_H
+#endif // !AMUSE_INCLUDE_IO_HPP
