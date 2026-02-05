@@ -53,5 +53,5 @@ CheckOptions:
     value:           '0'
 
   - key:             llvm-header-guard.HeaderGuardExtension
-    value:           'h'
+    value:           'hpp'
 ---
