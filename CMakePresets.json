@@ -154,5 +154,57 @@
         "amuse-tests"
       ]
     }
+  ],
+  "buildPresets": [
+    {
+      "name": "amuse-all-debug",
+      "displayName": "Build Amuse All(Debug)",
+      "configurePreset": "amuse-all-debug"
+    },
+    {
+      "name": "amuse-all-release",
+      "displayName": "Build Amuse All(Release)",
+      "configurePreset": "amuse-all-release"
+    },
+    {
+      "name": "amuse-editor-debug",
+      "displayName": "Build Amuse Editor(Debug)",
+      "configurePreset": "amuse-editor-debug"
+    },
+    {
+      "name": "amuse-editor-release",
+      "displayName": "Build Amuse Editor(Release)",
+      "configurePreset": "amuse-editor-release"
+    },
+    {
+      "name": "amuse-examples-debug",
+      "displayName": "Build Amuse Examples(Debug)",
+      "configurePreset": "amuse-examples-debug"
+    },
+    {
+      "name": "amuse-examples-release",
+      "displayName": "Build Amuse Examples(Release)",
+      "configurePreset": "amuse-examples-release"
+    },
+    {
+      "name": "amuse-runtime-debug",
+      "displayName": "Build Amuse Runtime(Debug)",
+      "configurePreset": "amuse-runtime-debug"
+    },
+    {
+      "name": "amuse-runtime-release",
+      "displayName": "Build Amuse Runtime(Release)",
+      "configurePreset": "amuse-runtime-release"
+    },
+    {
+      "name": "amuse-tests-debug",
+      "displayName": "Build Amuse Tests(Debug)",
+      "configurePreset": "amuse-tests-debug"
+    },
+    {
+      "name": "amuse-tests-release",
+      "displayName": "Build Amuse Tests(Release)",
+      "configurePreset": "amuse-tests-release"
+    }
   ]
 }

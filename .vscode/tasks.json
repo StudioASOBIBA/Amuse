@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake: Configure (preset)",
+      "type": "shell",
+      "command": "cmake",
+      "args": ["--preset", "${input:configurePreset}"],
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake: Build (preset)",
+      "type": "shell",
+      "command": "cmake",
+      "args": ["--build", "--preset", "${input:buildPreset}"],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "configurePreset",
+      "type": "pickString",
+      "description": "Select CMake configure preset",
+      "options": [
+        "amuse-all-debug",
+        "amuse-all-release",
+        "amuse-editor-debug",
+        "amuse-editor-release",
+        "amuse-examples-debug",
+        "amuse-examples-release",
+        "amuse-runtime-debug",
+        "amuse-runtime-release",
+        "amuse-tests-debug",
+        "amuse-tests-release"
+      ]
+    },
+    {
+      "id": "buildPreset",
+      "type": "pickString",
+      "description": "Select CMake build preset",
+      "options": [
+        "amuse-all-debug",
+        "amuse-all-release",
+        "amuse-editor-debug",
+        "amuse-editor-release",
+        "amuse-examples-debug",
+        "amuse-examples-release",
+        "amuse-runtime-debug",
+        "amuse-runtime-release",
+        "amuse-tests-debug",
+        "amuse-tests-release"
+      ]
+    }
+  ]
+}
